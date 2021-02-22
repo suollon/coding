@@ -1,0 +1,39 @@
+package com.suollon.coding.java8.chap5;
+
+/**
+ * @author hzwwl
+ * @date 2019/7/15 20:11
+ */
+public class Trader {
+    private String name;
+    private String city;
+
+    public Trader(String name, String city) {
+        this.name = name;
+        this.city = city;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    @Override
+    public String toString() {
+        return "Trader{" +
+                "name='" + name + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
+}
